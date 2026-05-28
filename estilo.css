@@ -4,8 +4,17 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .cabecalho {
     padding: 15px 25px;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
 }
 
 .cartao {
@@ -13,6 +22,9 @@
     height: 200px;
 }
 
+main {
+    flex: 1;
+}
 .cartao-imagem{
     width: 20%;
 }
