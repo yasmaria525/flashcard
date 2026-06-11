@@ -1,4 +1,4 @@
-{
+*{
     box-sizing: boxer-box ;
     margin: 0;
     padding: 0;
@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: powderblue;
 }
 
 .cabecalho {
@@ -15,6 +16,12 @@ body {
     display: flex;
     justify-items: space-between;
     align-items: center;
+    background-color: rgb(31, 110, 134);
+}
+
+.cabecalho-link{
+    background-color: aliceblue;
+    text-decoration: none;
 }
 
 .cartao {
