@@ -26,12 +26,39 @@ body {
 
 .cartao {
     width: 260px;
-    height: 200px;
+    height: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+footer{
+    background-color: rgb(153, 197, 184);
+    padding: 15px 25px;
+    color: rgb(48, 93, 129);
 }
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(35, 194, 194);
+    font-size: 24px;
+}
+
+h2{
+    color: rgb(33, 201, 201);
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .cartao-imagem{
     width: 20%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 12px;
 }
