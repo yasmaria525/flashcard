@@ -62,3 +62,41 @@ h2{
     object-fit: cover;
     border-radius: 12px;
 }
+
+.cartao-interno{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartao-frente,
+.cartao-verso {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(31, 110, 134, 0.342);
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+.cartao-verso{
+    transform: rotateY(180deg);
+}
+
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg);
+}
+
+.cartao-frente p,
+
+section{
+    display: flex;
+    gap: 16px;
+}
